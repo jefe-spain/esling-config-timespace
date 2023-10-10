@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-timespace",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Frontend Coding Standards Config for TimespaceLabs Products",
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "README.md",
     "typescript.js",
     "base.js",
+    "next.js",
     "LICENSE",
     ".prettierrc"
   ],
@@ -35,6 +36,7 @@
     "@babel/core": "^7.20.7",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
+    "@next/eslint-plugin-next": "^13.5.4",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
