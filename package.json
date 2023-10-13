@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-timespace",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Frontend Coding Standards Config for TimespaceLabs Products",
   "repository": {
     "type": "git",
