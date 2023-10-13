@@ -14,6 +14,7 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'plugin:react/recommended',
+    'plugin:@next/next/recommended',
     'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
@@ -21,6 +22,14 @@ module.exports = {
     project: './tsconfig.json'
   },
   root: true,
+  overrides: [
+    {
+      files: ['*.tsx', '*.ts'],
+      rules: {
+        'react/require-default-props': 'off'
+      }
+    }
+  ],
   rules: {
     ...common,
     ...typescript,
