@@ -3,11 +3,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 const baseRules = require('./rules/common');
 
 module.exports = {
-  extends: [
-    'airbnb',
-    'plugin:react/recommended',
-    'plugin:prettier/recommended'
-  ],
+  extends: ['airbnb', 'plugin:react/recommended', 'plugin:prettier/recommended'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,

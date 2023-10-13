@@ -17,10 +17,7 @@ const rules = {
   // Disallow unescaped entities like >, < in JSX to prevent errors
   'react/no-unescaped-entities': 2,
   // Enforce consistent function types for component definitions
-  'react/function-component-definition': [
-    2,
-    { namedComponents: 'arrow-function', unnamedComponents: 'arrow-function' }
-  ],
+  'react/function-component-definition': 0,
   // Require default props for optional props
   'react/require-default-props': 1,
   // Ensure that elements inside arrays have a key prop
@@ -39,9 +36,6 @@ const rules = {
   'react/prop-types': 1,
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': 1,
-  // Enforce spacing inside of curly braces in JSX attributes
-  'react/jsx-curly-spacing': [1, { when: 'never', children: { when: 'always' } }],
-
   // Enforce line wrapping for multiline JSX expressions
   'react/jsx-wrap-multilines': 1
 };
